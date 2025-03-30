@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Adex</title>
+  <meta name="title" content="Adex">
+  <meta name="description" content="This is a business agency html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./bn.png">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/sparklogob.png" width="150" height="150" alt="Adex home" class="logo-light">
+
+        <img src="./assets/images/sparklogo.png" width="150" height="150" alt="Adex home" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+            <a href="#" class="logo">
+            <img src="./assets/images/logo-light.svg" width="120" height="120" alt="Adex home">
+            </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link">Projects</a>
+          </li>
+
+
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:sparkcontact@zohomail.com" class="contact-link">sparkcontact@zohomail.com</a>
+
+          <a href="tel:+212691174746" class="contact-link">+212691174746</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="mailto:sparkcontact@zohomail.com" class="btn btn-primary">Contact</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Crafting project specific solutions with expertise.</h1>
+
+            <p class="hero-text">
+              We’re a creative company that focuses on establishing long-term relationships with customers.
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="#projects" class="btn btn-primary">Explore Now</a>
+
+              <a href="mailto:sparkcontact@zohomail.com" class="btn btn-outline">Contact Us</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-1.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/hero-slide-2.jpg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                    <button class="play-btn" aria-label="play adex intro">
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+      <section class="section service" aria-labelledby="service-label" id="about">
+        <div class="container">
+          <p class="section-subtitle" id="service-label">What We Do?</p>
+          <h2 class="h2 section-title">
+            The service we offer is specifically designed to meet your needs.
+          </h2>
+      
+          <ul class="grid-list">
+            <!-- 24/7 Support -->
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/headset-solid.svg" alt="24/7 Support" width="30" height="30"> 
+                </div>
+                <h3 class="h4 card-title">24/7 Support</h3>
+                <p class="card-text">
+                  Round-the-clock assistance for all your needs. Our team is always available to help you with any issues or questions.
+                </p>
+              
+              </div>
+            </li>
+      
+            <!-- Custom Websites -->
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/pen-solid.svg" alt="Custom Websites" width="30" height="30">
+                </div>
+                <h3 class="h4 card-title">Custom Websites</h3>
+                <p class="card-text">
+                  Tailored web solutions designed specifically for your business needs, built with the latest technologies.
+                </p>
+                
+              </div>
+            </li>
+      
+            <!-- SEO Optimization -->
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/searchengin-brands.svg" alt="SEO Optimization" width="30" height="30">
+                </div>
+                <h3 class="h4 card-title">SEO Optimization</h3>
+                <p class="card-text">
+                  Boost your online visibility with our comprehensive SEO strategies that drive organic traffic to your website.
+                </p>
+              
+              </div>
+            </li>
+      
+            <!-- Performance Analytics -->
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/chart-simple-solid.svg" alt="Performance Analytics" width="30" height="30">
+                </div>
+                <h3 class="h4 card-title">Performance Analytics</h3>
+                <p class="card-text">
+                  Detailed analytics and reporting to track your website's performance and make data-driven decisions.
+                </p>
+             
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+        <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy" alt="about banner"
+          class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+        <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+
+        <h2 class="h2 section-title">
+          We provide innovative and tailored solutions for your digital presence.
+        </h2>
+
+        <ul>
+
+          <li class="about-item">
+            <div class="accordion-card expanded" data-accordion>
+
+          <h3 class="card-title">
+            <button class="accordion-btn" data-accordion-btn>
+              <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+              <span class="span h5">Professional Design</span>
+            </button>
+          </h3>
+
+          <p class="accordion-content">
+            Our team of experts crafts visually stunning and user-friendly designs that align with your brand identity and goals.
+          </p>
+
+            </div>
+          </li>
+
+          <li class="about-item">
+            <div class="accordion-card" data-accordion>
+
+          <h3 class="card-title">
+            <button class="accordion-btn" data-accordion-btn>
+              <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+              <span class="span h5">Top-Notch Support</span>
+            </button>
+          </h3>
+
+          <p class="accordion-content">
+            We are committed to providing exceptional customer support, ensuring your website runs smoothly at all times.
+          </p>
+
+            </div>
+          </li>
+
+          <li class="about-item">
+            <div class="accordion-card" data-accordion>
+
+          <h3 class="card-title">
+            <button class="accordion-btn" data-accordion-btn>
+              <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                <span class="span h5">Exclusive Assets</span>
+              </button>
+              </h3>
+
+              <p class="accordion-content">
+              Gain access to premium tools, resources, and features that give your website a competitive edge in the digital space.
+              </p>
+
+              </div>
+              </li>
+
+              <li class="about-item">
+              <div class="accordion-card" data-accordion>
+
+              <h3 class="card-title">
+              <button class="accordion-btn" data-accordion-btn>
+                <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                <span class="span h5">Innovative Solutions</span>
+              </button>
+              </h3>
+
+              <p class="accordion-content">
+              We leverage the latest technologies and creative strategies to deliver unique and effective solutions tailored to your needs.
+              </p>
+
+              </div>
+              </li>
+
+        </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+        <img src="./assets/images/feature-banner.png" width="800" height="531" loading="lazy" alt="feature banner"
+          class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+        <p class="section-subtitle" id="feautre-label">Our Solutions</p>
+
+        <h2 class="h2 section-title">
+          Simplifying your digital journey with cutting-edge technology and expertise.
+        </h2>
+
+        <p class="section-text">
+          We specialize in creating seamless and efficient digital experiences that empower businesses to thrive online.
+        </p>
+
+        <ul class="feature-list">
+
+          <li>
+            <div class="feature-card">
+
+          <div class="card-icon">
+            <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">
+            Custom-built websites tailored to your unique needs.
+          </span>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="feature-card">
+
+          <div class="card-icon">
+            <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">
+            Responsive designs optimized for all devices.
+          </span>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="feature-card">
+
+          <div class="card-icon">
+            <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">
+            Advanced SEO strategies to boost your online visibility.
+          </span>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="feature-card">
+
+          <div class="card-icon">
+            <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">
+            Scalable solutions to grow with your business.
+          </span>
+
+            </div>
+          </li>
+
+        </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" aria-label="our stats">
+        <div class="container">
+
+          <ul class="stats-card has-bg-image" style="background-image: url('./assets/images/stats-bg.jpg')">
+
+        <li>
+          <p class="card-text">
+            <span class="h1">34</span>
+
+            <span class="span">Websites Delivered</span>
+            </p>
+          </li>
+
+          <li>
+            <p class="card-text">
+            <span class="h1">30</span>
+
+            <span class="span">Satisfied Clients</span>
+            </p>
+          </li>
+
+          <li>
+            <p class="card-text">
+            <span class="h1">1000+</span>
+
+            <span class="span">Hours of Expertise</span>
+            </p>
+          </li>
+
+          <li>
+            <p class="card-text">
+            <span class="h1">30</span>
+
+            <span class="span">Positive Reviews</span>
+            </p>
+          </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+      <section id="projects" class="section project" aria-labelledby="project-label">
+        <div class="container">
+      
+          <p class="section-subtitle" id="project-label">Website Showcase</p>
+      
+          <h2 class="h2 section-title">
+            Browse our collection of clean, functional business websites
+          </h2>
+      
+          <ul class="grid-list">
+      
+            <li>
+              <div class="project-card">
+      
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/desktop3.png" width="560" height="350" loading="lazy"
+                    alt="Car rental website homepage" class="img-cover">
+                </figure>
+      
+                <div class="card-content">
+      
+                  <h3 class="h3">
+                    <a href="https://farizadam.github.io/car/" class="card-title">City Drive Car Rentals</a>
+                  </h3>
+      
+                  <p class="card-text">
+                    A car rental website featuring available vehicles, pricing, and contact information.
+                  </p>
+      
+                  <ul class="card-meta-list">
+      
+                
+      
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                      <span class="meta-text">Business Website</span>
+                    </li>
+      
+                  </ul>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="project-card">
+      
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/desktop2.png" width="560" height="350" loading="lazy"
+                    alt="Fast food restaurant website" class="img-cover">
+                </figure>
+      
+                <div class="card-content">
+      
+                  <h3 class="h3">
+                    <a href="https://farizadam.github.io/fast-food/" class="card-title">Burger House Fast Food</a>
+                  </h3>
+      
+                  <p class="card-text">
+                    A restaurant website showcasing menu items, location, and basic company information.
+                  </p>
+      
+                  <ul class="card-meta-list">
+      
+                    
+      
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                      <span class="meta-text">Restaurant Website</span>
+                    </li>
+      
+                  </ul>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="project-card">
+      
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/desktop.png" width="560" height="350" loading="lazy"
+                    alt="Barbershop website design" class="img-cover">
+                </figure>
+      
+                <div class="card-content">
+      
+                  <h3 class="h3">
+                    <a href="https://farizadam.github.io/barber/" class="card-title">Classic Cuts Barbershop</a>
+                  </h3>
+      
+                  <p class="card-text">
+                    A barbershop website displaying services, pricing, and contact details.
+                  </p>
+      
+                  <ul class="card-meta-list">
+      
+                 
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                      <span class="meta-text">Service Website</span>
+                    </li>
+      
+                  </ul>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+          </ul>
+      
+        </div>
+      </section>
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Join our community by using our services and grow your business.
+          </h2>
+
+          <a href="#" class="btn btn-primary">Try it For Free</a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/sparklogob.png" width="74" height="24" alt="Adex home">
+        </a>
+
+        <p class="footer-text">
+          &copy; 2025 codewithsadee. <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            Rabat, Morocco <br>
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:sparkcontact@zohomail.com" class="footer-link">sparkcontact@zohomail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:+212691174746" class="footer-link">+212691174746</a>
+        </li>
+
+      </ul>
+
+    
+
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Our Newsletter</p>
+
+        <p class="footer-text">
+          Subscribe to our newsletter to get our news & deals delivered to you.
+        </p>
+
+        <form action="" class="input-wrapper">
+          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+
+          <button type="submit" class="submit-btn">Join</button>
+        </form>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+<!-- 
+  - ionicon
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://kit.fontawesome.com/2cab1ef001.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
